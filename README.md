@@ -1,11 +1,11 @@
-# Laravel Ebay
+# Ebay Laravel
 
-[![Latest Stable Version](https://poser.pugx.org/hkonnet/laravel-ebay/v)](//packagist.org/packages/hkonnet/laravel-ebay)
-[![Total Downloads](https://poser.pugx.org/hkonnet/laravel-ebay/downloads)](//packagist.org/packages/hkonnet/laravel-ebay)
-[![Monthly Downloads](https://poser.pugx.org/hkonnet/laravel-ebay/d/monthly)](//packagist.org/packages/hkonnet/laravel-ebay)
-[![License](https://poser.pugx.org/hkonnet/laravel-ebay/license)](//packagist.org/packages/hkonnet/laravel-ebay)
+[![Latest Stable Version](https://poser.pugx.org/eoc/ebay-laravel/v)](//packagist.org/packages/eoc/ebay-laravel)
+[![Total Downloads](https://poser.pugx.org/eoc/ebay-laravel/downloads)](//packagist.org/packages/eoc/ebay-laravel)
+[![Monthly Downloads](https://poser.pugx.org/eoc/ebay-laravel/d/monthly)](//packagist.org/packages/eoc/ebay-laravel)
+[![License](https://poser.pugx.org/eoc/ebay-laravel/license)](//packagist.org/packages/eoc/ebay-laravel)
 
-This package is based on [Ebay SDK](https://github.com/davidtsadler/ebay-sdk-php) written by David T. Sadler. 
+This package is based on [Ebay SDK](https://packagist.org/packages/eoc/ebay-laravel-sdk) written by Areg Hunanyan. 
 This package will organize all the configuration according to laravel and make you use the SDK with out doing any exceptional work or configurations. 
 
 ## Getting Started
@@ -14,22 +14,22 @@ Follow the instruction to install and use this package.
 
 ### Prerequisites
 
-This is package use [**Ebay Php SDK**](http://devbay.net/)
+This is package use [**Ebay Laravel SDK**]
 
 ### Installing
 
-Add Laravel-Ebay to your composer file via the composer require command:
+Add Ebay-Laravel to your composer file via the composer require command:
 
 
 ```bash
-$ composer require hkonnet/laravel-ebay
+$ composer require eoc/ebay-laravel
 ```
 
 Or add it to `composer.json` manually:
 
 ```json
 "require": {
-    "hkonnet/laravel-ebay": "^1.2"
+    "eoc/ebay-laravel": "^1.1.1"
 }
 ```
 
@@ -299,7 +299,6 @@ do {
 
 ```
 > **Note:**
-> - There are lots for more example available at [Ebay SDK Examples](https://github.com/davidtsadler/ebay-sdk-examples).
 > - Follow above examples but read the Important note below.
 
 ## Important Note
@@ -342,14 +341,9 @@ These services methods can be used to get appropriate service object to perform 
 
 ## Author
 
-* **Haroon Khan** - *Initial work* - [hkonnet](https://github.com/hkonnet)
+* **Areg Hunanyan** - *Initial work*
 
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
-
-## Acknowledgments
-
-* [David T. Sadler](https://github.com/davidtsadler)  for his awesome Ebay SDK.
-
